@@ -1,0 +1,3 @@
+CPP_EXTENSION=".cpp"
+EXE_EXTENSION=".exe"
+g++ $1$CPP_EXTENSION -o $1 ; ./$1 ; rm $1$EXE_EXTENSION
